@@ -49,6 +49,6 @@ module virtual_machine {
     resource_group_name = module.resource_group.resource_group_name
     subnet_id = module.subnet.subnet_id
     vm_size = "Standard_B1s"
-    admin_username = "adminuser"
-    admin_password = "P@ssword1234!"
+    admin_username = "<user_name>"
+    admin_password = "<password>"
 }
